@@ -1,13 +1,13 @@
 const helloBtn = document.getElementById("helloBtn");
-const message=document.getElementById("message");
+const message = document.getElementById("message");
 
 helloBtn.addEventListerner("cleck",()=>{
-    const hour=new Data().getHours();
-    let greeting="こんにちは！";
+    const hour = new Data().getHours();
+    let greeting = "こんにちは！";
     if(hour<12){
-        greeting="おはようございます！";
+        greeting = "おはようございます！";
     }else if(hour>=18){
-        greeting="こんばんは！";
+        greeting = "こんばんは！";
     }
     message.textContent=`${greeting}GitHub Pages の公開に成功しました！`;
 

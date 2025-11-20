@@ -24,7 +24,7 @@ function render(){
         const tr = document.createElement("tr");
     
     //在庫が少ないときはクラスを追加して背景色を変える
-    if(item.Stock<item.minStock){
+    if(item.stock<item.minStock){
         tr.classList.add("low-stock");
     }
 

@@ -28,7 +28,7 @@ th{
 
 /*在庫が少ない商品の行の見た目*/
 .low-stock{
-    background-color:#ffe0e0;
+    background-color:#f33939;
 }
 
 button{
